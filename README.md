@@ -1,45 +1,33 @@
 <div align="center">
-  <img src="logos/full_logo.png" alt="Caveman Survival Full Logo" width="100%">
+  <img src="logos/cover.png" alt="Caveman Survival Cover" width="100%">
 </div>
 
 # Caveman Survival Modpack
 
-<div align="center">
-  <img src="logos/cover.png" alt="Caveman Survival Cover" width="80%">
-</div>
+> [EMPTY QUOTE HERE]
 
-Welcome to the **Caveman Survival Modpack**! This modpack is designed to strip Minecraft down to its primal roots. Forget iron and diamond tools, forget easy infinite water, and forget surviving a night out in the open without consequences. This is a grueling, realistic survival experience for NeoForge 1.20.1.
+## Mod List
+Here are the core mods included in this pack to create a grueling, primitive survival experience:
+- **Tough as Nails / Cold Sweat / Survive** (Thirst, temperature, and stamina management)
+- **First Aid** (Locational body part damage)
+- **Pollution of the Realms** & **ForgeEndertech** (Realistic smoke, carbon emissions, and ventilation)
+- **Dynamic Waters** & **Physics Mod** (Flowing river currents and water physics)
+- **Serene Seasons** & **Terralith** (Harsh weather cycles and massive biomes)
+- **Slower Blocks** (Extremely slow and difficult mining)
+- **Comforts** (Sleeping bags for ground sleeping)
+- **Obsidian Equipment** (Obsidian-tier primal gear)
+- **TFC Volcanoes / Volcano Mod** (Active volcanoes)
+- **Neutral Animals / Fleeing Animals** (Realistic animal self-defense and flight behavior)
+- **Disease N' Decease / Health & Disease** (Sickness and infections)
 
-<div align="center">
-  <img src="logos/logo.png" alt="Caveman Survival Icon" width="150px">
-</div>
+## Tweaks & Changes
+Beyond just compiling mods, we have heavily modified the core Minecraft experience using **KubeJS**:
+- **Primal Technology Only**: Crafting recipes for all Wooden, Iron, Golden, Diamond, and Netherite tools and armor have been completely removed. You must survive using Stone, Flint, and Obsidian.
+- **Surface Lava Only**: Underground lava lakes and lava springs have been disabled in world generation. To obtain obsidian, you must venture to the surface or brave an active volcano.
+- **Campfire Mechanics**: You cannot build fires in enclosed caves without a chimney. The smoke will pool at the ceiling and suffocate you.
+- **Sleeping Penalties**: Sleeping in the open makes you vulnerable, but ignoring sleep will cause exhaustion and eventually force you to pass out wherever you are standing.
 
-## Features in Detail
+---
 
-### 🩸 Real Human Needs & Injuries
-- **Thirst & Temperature**: You must manage your hydration and body temperature. Rain will freeze you; being near lava without protection will overheat you.
-- **Locational Damage**: Vanilla health is replaced with specific body part health (head, torso, arms, legs). A broken leg will slow you down, and a head injury will blur your vision.
-- **Sleep & Exhaustion**: If you skip sleeping, you will develop insomnia, become exhausted, and eventually pass out where you stand. You can sleep on the ground using bedrolls, but you better hide—sleeping in the open makes you vulnerable.
-
-### 🌋 Severe Environmental Hazards
-- **Realistic Smoke**: Campfires and furnaces produce physical smoke that rises and spreads. If you build a campfire in an enclosed cave without a chimney, the smoke will suffocate you.
-- **Rip Currents**: Rivers are no longer static water blocks. They have aggressive flowing currents that will push you and animals downstream. Crossing a river without a boat is extremely dangerous.
-- **Large Biomes & Seasons**: Biomes are massive, making travel and escaping bad biomes difficult. The world undergoes full seasonal cycles (Summer, Autumn, Winter, Spring).
-
-### 🪨 Restricted Primal Technology
-- **No Advanced Ores**: The crafting recipes for all Wooden, Iron, Golden, Diamond, and Netherite tools and armor have been completely removed via custom KubeJS scripts. 
-- **Stone Age**: You are restricted to using Stone and Flint. If you manage to find lava on the surface or near volcanoes (underground lava generation has been disabled), you can cool it to obtain Obsidian for top-tier primal equipment.
-- **Grueling Mining**: Mining blocks takes significantly longer. Building a simple base requires real time and effort.
-
-## Installation (Overrides Pack Format)
-
-### To play immediately in Prism Launcher / MultiMC:
-1. Create a new instance for **Minecraft 1.20.1** and install **NeoForge**.
-2. Open the instance's `.minecraft` folder.
-3. Copy the `mods` and `kubejs` folders from this repository directly into the `.minecraft` folder.
-4. Launch the game and survive!
-
-### Exporting to Modrinth / CurseForge
-If you want to upload this pack to CurseForge or Modrinth to share with others, you can simply zip this entire directory (the `mods` and `kubejs` folders) and upload it as a "Server Pack" or "Custom Profile" zip. 
-
-Enjoy the grueling survival experience!
+## Support the Project
+If you want to support us, please follow the project and give a ⭐ star on the GitHub repository! I'm open to any other kind of support as well—just shoot me a DM.
