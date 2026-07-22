@@ -1,0 +1,11 @@
+# Mac
+.DS_Store
+
+# Python downloads scripts (internal)
+download_mods.py
+download_missing.py
+
+# Ignore any IDE or packwiz specific cache if they get generated
+.vscode/
+.idea/
+packwiz.zip
