@@ -9,3 +9,7 @@ download_missing.py
 .vscode/
 .idea/
 packwiz.zip
+
+# Release artifacts
+release/
+
