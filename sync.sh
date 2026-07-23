@@ -37,5 +37,12 @@ if [ -d "config" ]; then
     rsync -av config/ "$TARGET_DIR/config/"
 fi
 
+# Sync defaultconfigs folder if present
+if [ -d "defaultconfigs" ]; then
+    echo "🗺️ Syncing defaultconfigs..."
+    mkdir -p "$TARGET_DIR/defaultconfigs"
+    rsync -av defaultconfigs/ "$TARGET_DIR/defaultconfigs/"
+fi
+
 echo "✅ Sync complete!"
 echo "💡 If Minecraft is currently running, run '/kubejs reload' in chat to see script changes instantly!"

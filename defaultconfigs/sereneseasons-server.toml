@@ -1,0 +1,14 @@
+[time_settings]
+	day_duration = 24000
+	sub_season_duration = 8
+	# 1 = Early Spring (Warm, green grass & non-snowy spawn for new worlds!)
+	starting_sub_season = 1
+	progress_season_while_offline = true
+
+[aesthetic_settings]
+	change_grass_color = true
+	change_foliage_color = true
+	change_birch_color = true
+
+[dimension_settings]
+	whitelisted_dimensions = ["minecraft:overworld"]
