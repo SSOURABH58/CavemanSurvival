@@ -15,39 +15,44 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'minecraft:blast_furnace' });
     event.remove({ output: 'minecraft:enchanting_table' });
 
-    // 2. Clear Tool Progression Path:
-    // Tier 1: Wooden Tools (Allowed)
-    // Tier 2: Stone Tools (Allowed)
-    // Tier 3: Obsidian Tools (Apex Primitive Tier)
+    // 2. Early Game RLCraft-Style Flint & Plant Fiber Progression:
+    // Plant Fiber -> Plant String (via No Tree Punching)
+    // Loose Flint + Stone Block -> Flint Shards (Knapping)
+    // Flint Shards + Plant String + Stick -> Flint Knife & Flint Hatchet
 
-    // Ensure Obsidian Tool crafting is straightforward with Obsidian Blocks and Sticks
+    // 3. Multi-Step Obsidian Crafting Progression:
+    // Crafting Obsidian Equipment requires Obsidian Blocks, Plant String / Leather, and Wooden/Flint Sticks
+
     // Obsidian Pickaxe
     event.shaped('obsidianequipment:obsidian_pickaxe', [
         'OOO',
-        ' S ',
+        ' L ',
         ' S '
     ], {
         O: 'minecraft:obsidian',
+        L: 'minecraft:leather',
         S: 'minecraft:stick'
     });
 
     // Obsidian Axe
     event.shaped('obsidianequipment:obsidian_axe', [
         'OO ',
-        'OS ',
+        'OL ',
         ' S '
     ], {
         O: 'minecraft:obsidian',
+        L: 'minecraft:leather',
         S: 'minecraft:stick'
     });
 
     // Obsidian Shovel
     event.shaped('obsidianequipment:obsidian_shovel', [
         ' O ',
-        ' S ',
+        ' L ',
         ' S '
     ], {
         O: 'minecraft:obsidian',
+        L: 'minecraft:leather',
         S: 'minecraft:stick'
     });
 
@@ -61,15 +66,5 @@ ServerEvents.recipes(event => {
         S: 'minecraft:stick'
     });
 
-    // Obsidian Hoe
-    event.shaped('obsidianequipment:obsidian_hoe', [
-        'OO ',
-        ' S ',
-        ' S '
-    ], {
-        O: 'minecraft:obsidian',
-        S: 'minecraft:stick'
-    });
-
-    console.log("CavemanSurvival: Wood -> Stone -> Obsidian progression path configured successfully!");
+    console.log("CavemanSurvival: RLCraft-style progression & Multi-step Obsidian crafting configured!");
 });
